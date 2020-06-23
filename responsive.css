@@ -18,7 +18,7 @@
 }
 
 /* Untuk Smartphone */
-@media (max-width: 670px) {
+@media (min-width: 670px) {
   .lesson {
     width: 100%;
   }
