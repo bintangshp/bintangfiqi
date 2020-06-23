@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Helvetica";
 }
 
 a {
@@ -22,9 +22,13 @@ a {
   margin: 0 auto;
 }
 
+.container h4 {
+  margin-top: 20px;
+}
+
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2020/06/wwdc6.jpg?quality=82&strip=all);
   background-size: cover;
   color: white;
   text-align: center;
@@ -51,7 +55,7 @@ a {
   margin: 10px 0;
 }
 
-.signup {
+.call {
   background-color: #239b76;
 }
 
@@ -62,6 +66,11 @@ a {
 
 .twitter {
   background-color: #55acee;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #fa2f9b;
 }
 
 .btn {
@@ -71,6 +80,7 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  font-family: helvetica;
 }
 
 .btn:hover {
@@ -84,15 +94,15 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(128, 31, 31, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 150px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -114,7 +124,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(252, 44, 3, 0.3);
 }
 
 /* Tambahkan CSS untuk menu-icon */
@@ -155,11 +165,16 @@ header {
   position: relative;
 }
 
-.lesson-icon p {
-  position: absolute;
+.lesson-icon img {
+  width: 60px;
+}
+
+.lesson-icon h3 {
+  position: relative;
   top: 44%;
   width: 100%;
-  color: white;
+  color: black;
+  margin-top: 10px;
 }
 
 .text-contents {
@@ -167,7 +182,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #292929;
 }
 
 .heading h3 {
