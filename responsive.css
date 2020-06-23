@@ -5,6 +5,10 @@
     margin-bottom: 50px;
   }
   
+  .menu-icon {
+    display: none;
+  }
+  
   .top-wrapper h1 {
     font-size: 32px;
   }
