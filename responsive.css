@@ -12,13 +12,10 @@
   .heading h2 {
     font-size: 20px;
   }
-  
-  .menu-icon {
-    display: none;
 }
 
 /* Untuk Smartphone */
-@media (min-width: 670px) {
+@media all and (max-width: 670px) {
   .lesson {
     width: 100%;
   }
